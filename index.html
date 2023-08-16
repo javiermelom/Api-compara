@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/Styles/style.css">
+    <title>Juego Api</title>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="imagen" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Juego Api" width="30" height="24">
+          </a>
+        </div>
+      </nav>
+    <main>
+        <div class="container">
+            <select id="op1" class="form-select" aria-label="Default select example">
+                <option selected>Opcion 1</option>
+              </select>
+              <select id="op2" class="form-select" aria-label="Default select example">
+                <option selected>Opcion 2</option>
+              </select>
+              <input class="send" id="send" type="submit" value="Enviar">
+        </div>
+        <div class="ganador">
+            <h2 id="result"></h2>
+        </div>
+    </main>
+    <footer>
+        <span>
+            Valentina Moreno
+            <br>
+            Nini Johana Garcia
+            <br>
+            Jeimy Mora
+            <br>
+            Efrain Mayorga
+            <br>
+            Ricardo Quitian
+            <br>
+            Jose Robles
+            <br>
+            Javier Melo
+        </span>
+    </footer>
+</body>
+<script type="module" src="./api/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>   
+</html>
